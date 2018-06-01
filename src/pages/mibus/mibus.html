@@ -1,0 +1,18 @@
+<ion-header>
+    <ion-navbar color="dark">
+        <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    <ion-title> ¿Dónde viene mi camión?</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <agm-map [latitude]="lat" [longitude]="lng" [zoom]="13"
+    [streetViewControl] = "False"
+    [disableDefaultUI] = "true" 
+    >
+        <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+      </agm-map>
+
+</ion-content>

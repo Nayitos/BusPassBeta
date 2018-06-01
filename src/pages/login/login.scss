@@ -1,0 +1,111 @@
+page-login {
+	.background {
+        background-image: url('/assets/imgs/fondo.jpg');
+        background-repeat: repeat-x;
+	}
+
+	.scroll-content {
+		align-content: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+	}
+
+	ion-card.card {
+		box-shadow: none;
+		background: rgba(0, 0, 0, 0.5);
+		border-radius: 5px;
+	}
+
+	a, p,
+	ion-card-header.card-header {
+		color: #fff!important;
+	}
+
+	.list > .item-block:first-child {
+		border: medium none;
+	}
+
+	.item {
+		margin-bottom: 10px;
+		background: rgba(255, 255, 255, 0.5);
+		border: medium none;
+
+		.text-input, {
+			color: #fff;
+		}
+
+		input::-moz-placeholder  {
+			color: #fff!important;
+		}
+
+		input:-moz-placeholder {
+			color: #fff!important;
+		}
+
+		*::-webkit-input-placeholder  {
+			color: #fff!important;
+		}
+
+		*:-ms-input-placeholder  {
+			color: #fff!important;
+		}
+
+		*:-moz-placeholder  {
+			color: #fff!important;
+		}
+	}
+
+	.icon {
+		padding-right: 10px;
+	}
+
+	.bottom {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        box-shadow: none;
+		background: rgba(0, 0, 0, 0.5);
+        color: white;
+        text-align: center;
+    }
+    
+    .centerImg
+    {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        max-width:60%;
+        max-height:40%; 
+    }
+
+    .Texthead
+    {
+        position: absolute;
+        display: block;
+        color: #fff;
+        top:13%;
+        left:50%;
+        transform : translate(-50%,-50%);
+    }
+
+  .headh1
+   {
+       font-size: 7vh!important;
+       font-weight: lighter!important;
+       font-family: 'Pacifico', cursive;
+   }
+
+   .headh5
+   {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, 
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 2px;
+    font-weight: 200;
+    font-size: 2vh;
+   }
+
+
+}

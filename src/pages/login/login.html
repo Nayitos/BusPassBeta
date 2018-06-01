@@ -1,0 +1,35 @@
+
+<ion-content class="background">
+  
+  <div class ="Texthead" text-center>
+    <h1 class="headh1">Bus Pass</h1>
+    <h5 class="headh2">Pasa sin problemas</h5>
+  </div>
+  <!--
+    <img class="centerImg" src="/assets/imgs/buspasslogo.png" alt=""> 
+ -->
+  <ion-card>
+    <ion-card-header>
+      Ingresa
+    </ion-card-header>
+    <ion-card-content>
+      <ion-list no-line>
+        <ion-item>
+          <ion-input type="text" placeholder="Username"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-input type="password" placeholder="Password"></ion-input>
+        </ion-item>
+        <a>¿Olvidaste algo? 
+          <b>Obten ayuda en</b>
+        </a>
+        <button ion-button block outline color="light">Acceder</button>
+        <p> O también puedes </p>
+        <button ion-button block color="facebook">
+          <ion-icon name="logo-facebook"></ion-icon> Ingresar con Facebook
+        </button>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+  <button class="bottom" ion-button round (click)="singUp()">¿No tienes cuenta?, Registrate</button>
+</ion-content>
